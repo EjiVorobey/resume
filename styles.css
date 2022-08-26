@@ -8,9 +8,13 @@ background: #f1f1f1;
 color: #0f141e;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 750px;
-    margin: 0 auto;
+    margin: auto;
     padding-top: 30px;
 }
 
@@ -21,18 +25,12 @@ color: #0f141e;
 }
 
 .info {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     display: flex;
 }
 
 .info-text {
     margin-left: 40px;
-}
-
-
-a {
-    text-decoration: none;
-    
 }
 
 .info-text p {
@@ -51,11 +49,9 @@ a {
     display: block;
     text-align: center;
     }
-    
 }
 
 .card {
-    width: 750px;
     border-radius: 20px;
     padding: 15px 20px;
     margin-bottom: 20px;
@@ -76,6 +72,13 @@ a {
 
 .bg-grey {
     background: #B0C4DE;
+}
+
+@media (max-width: 650px) {
+    .card {
+    display: block;
+    text-align: center;
+    }
 }
 
 .btn {
