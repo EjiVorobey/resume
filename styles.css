@@ -96,10 +96,6 @@ a {
     
 }
 
-.btn:hover {
-    opacity: 0.8;
-    color: orange;
-}
 
 .table {
     width: 100%;
@@ -176,4 +172,9 @@ a {
     padding: 15px 0 10px;
     outline: none;
     font-family: inherit;
+}
+
+.btn:hover {
+    opacity: 0.85;
+    color: orange;
 }
