@@ -20,9 +20,16 @@ color: #0f141e;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, .25);
 }
 
+
 .info {
     margin-bottom: 10px;
     display: flex;
+}
+
+@media (max-width: 650px) {
+    .info {
+        display: block;
+        text-align: center;}
 }
 
 .info-text {
@@ -158,6 +165,19 @@ a:last-child {
     margin-right: 0;
 }
 
+@media (max-width: 650px) {
+    .form-row {
+        margin-bottom: 30px;
+        display: block;
+    }   
+
+    .form-row .form-group {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
 
 .form-group label {
     display: block;
@@ -177,5 +197,3 @@ a:last-child {
     outline: none;
     font-family: inherit;
 }
-
-
