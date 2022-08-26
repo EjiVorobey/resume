@@ -7,103 +7,114 @@
     <meta name="keywords" content="Evgeniy, cv, resume">
     <meta name="description" content="Это сайт - резюме Евгений Бородин">
     <title>Evgeniy Borodin Resume</title>
-
-    <style>
-       @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
-       body {
-        font-family: 'Roboto', sans-serif;
-       }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <img src="avatar.jpg" width="260" alt="Бородин Евгений">
 
-    <h1><u>Евгений Бородин</u></h1>
+    <div class="container">
 
-    <p>Я основатель маркетинговой компании <strong>BorodinCo</strong> в Минске (<em>Республика Беларусь</em>). </p>
-    <p>Моя компания специализируется на маркетинге в <u>медицинском сегменте</u>. Если вы владеете <strong>медицинским центром или клиникой</strong>, то не стоит ждать чудесного роста и большого потока клиентов без современного маркетинга!
-    
-    <h2>Мои соц. сети:</h2>
-        <a href="https://www.instagram.com/vorobeykaeji" target="_blank">
-        <img src="http://store-images.s-microsoft.com/image/apps.31997.13510798887167234.6cd52261-a276-49cf-9b6b-9ef8491fb799.30e70ce4-33c5-43d6-9af1-491fe4679377" width="40" alt="instagram logo">
-        </a>
-    
-        <a href="https://t.me/EjiBorodin" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/2048px-Telegram_2019_Logo.svg.png" width="40" alt="telegram logo">
-            </a>
-
-    <h2>Опыт работы:</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Название</th>
-                    <th>Должность</th>
-                    <th>Год</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Verba.by</td>
-                    <td>Руководитель отдела по маркетингу</td>
-                    <td>2020-2021</td>
-                </tr>
-                <tr>
-                    <td>ProudClinic.by</td>
-                    <td>Маркетолог</td>
-                    <td>2021-2022</td>
-                </tr>
-                <tr>
-                    <td>Korona.by</td>
-                    <td>Руководитель отдела по маркетингу</td>
-                    <td>2022 - по сей день</td>
-                </tr>
-                <tr>
-                    <td>SantanaMed.by</td>
-                    <td>Маркетолог-аналитик</td>
-                    <td>2022 - по сей день</td>
-                </tr>
-            </tbody>       
-        </table>
-    
-
-    <h2>Мои хобби:</h2>
-    
-    <ol>
-        <li>Чтение научной фантастики;</li>
-        <li>Спорт: велосипед или тренажерный зал;</li>
-        <li>Путешествия;</li>
-        <li>Коллекционирование наручных часов;</li>
-        <li>Баскетбол (НБА - национальная баскетбольная ассоциация);</li>
-    </ol>
-
-    <h2>Связаться со мной:</h2>
-
-    <form>
+        <div class="info">
+            <img src="images/avatar.jpg" alt="Бородин Евгений" class="avatar"/>
         
-        <div> 
-         <label for="name"><strong>ФИО:</strong></label>
-         <input type="text" id="name" placeholder="Иванов Иван Иванович">
+            <div class="info-text">
+                <h1>Евгений Бородин</h1>
+
+                <p>Я основатель маркетинговой компании <strong>BorodinCo</strong> в Минске (Республика Беларусь).</p>
+                <p> Моя компания специализируется на маркетинге в медицинском сегменте. Если вы владеете <strong>медицинским центром или клиникой</strong>, то не стоит ждать чудесного роста и большого потока клиентов без современного маркетинга!</p>
+                    <div class="social-media">
+                        <h4>Мои соц. сети:</h4>
+                        <a href="https://www.instagram.com/vorobeykaeji" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/900px-Instagram_logo_2022.svg.png" width="60" alt="Logo Instagram">               
+                        </a>
+                        <a href="https://t.me/EjiBorodin" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" width="60" alt="Logo Instagram">
+                        </a>
+                    </div>    
+            </div>
         </div>
 
-        <br>
-       
-        <div>
-            <label for="email"><strong>Email:</strong></label>
-            <input type="email" id="email" placeholder="example@example.by"> 
+        <div class="card bg-blue">
+            <h2>Мои хобби:</h2>
+              <ol class="list">
+              <li>Чтение научной фантастики;</li>
+              <li>Спорт: велосипед или тренажерный зал;</li>
+              <li>Путешествия;</li>
+              <li>Коллекционирование наручных часов;</li>
+              <li>Баскетбол (НБА - национальная баскетбольная ассоциация);</li>
+              </ol>
         </div>
 
-        <br>
+        <div class="card bg-orange">
+            <h2>Опыт работы:</h2>
+              <table class="table">
+              <!-- <thead>
+              <tr>
+                <th>Название</th>
+                <th>Должность</th>
+                <th>Год</th>
+              </tr>
+              </thead> -->
+              <tbody>
+              <tr>
+                <td>Verba.by</td>
+                <td>Руководитель отдела по маркетингу</td>
+                <td>2020-2021</td>
+              </tr>
+              <tr>
+                <td>ProudClinic.by</td>
+                <td>Маркетолог</td>
+                <td>2021-2022</td>
+              </tr>
+              <tr>
+                <td>Korona.by</td>
+                <td>Руководитель отдела по маркетингу</td>
+                <td>2022 - по сей день</td>
+              </tr>
+              <tr>
+                <td>SantanaMed.by</td>
+                <td>Маркетолог-аналитик</td>
+                <td>2022 - по сей день</td>
+              </tr>
+              </tbody>       
+              </table>
+        </div>
 
-        <div>
-            <label for="message"><strong>Ваше сообщение:</strong></label>
-            <br>
-            <textarea id="message" cols="50" rows="5" placeholder="Введите текст вашего сообщения..."></textarea>
+        <div class="card bg-grey">
+            <h2>Образование:</h2>
+                <ul class="link-list">
+                <li><a href="https://rfe.bsu.by/" target="_blank">Белорусский Государственный Университет - факультет Радиофизики и электроники</a></li>    
+                <li><a href="https://www.livelib.ru/book/1000232394-testirovanie-dot-kom-ili-posobie-po-zhestokomu-obrascheniyu-s-bagami-v-internetstartapah-roman-savin" target="_blank">Самообразование - Р. Савин "Тестирование dotCom"</a></li>
+                <li><a href="https://qa-academy.by/" target="_blank">A1QA - курсы по тестированию ПО</a></li>
+                <li><a href="https://result.school/" target="_blank">Самообразование курсы HTML & CSS в школе result.school</a></li>
+                </ul>
         </div>
-    
-        <div>
-            <button type="submit">ОТПРАВИТЬ</button>
-        </div>
-    </form>
+
+        
+
+        <form action="/" class="form">
+            <h2>Связаться со мной:</h2>
+            <div class="form-row">
+
+                <div class="form-group">                     
+                    <label for="name"><strong>ФИО:</strong></label>
+                    <input type="text" id="name" placeholder="Иванов Иван Иванович">
+                </div>  
+            
+                <div class="form-group">   
+                    <label for="email"><strong>Email:</strong></label>
+                    <input type="email" id="email" placeholder="example@example.by"> 
+                </div>
+            </div> 
+            <div class="form-group">   
+                <label for="message"><strong>Ваше сообщение:</strong></label>
+            </div>
+        
+            <div>
+                <textarea id="message" cols="50" rows="5" placeholder="Введите текст вашего сообщения..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn">ОТПРАВИТЬ</button>
+            
+        </form>    
+                
+    </div>
 </body>
 </html>
