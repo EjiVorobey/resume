@@ -8,9 +8,29 @@ background: #f1f1f1;
 color: #0f141e;
 }
 
+.header {
+    width: 100%;
+}
+
 a {
     text-decoration: none;
     margin-left: 10px;
+}
+
+a:visited {
+    color: #86898f
+}
+
+a:hover {
+    color: rgb(1, 1, 1);
+    size: 2rem;
+    transform: rotate(360deg);
+    transition: all 0.55s ease-in;
+
+}
+
+a:active {
+    color: rgb(146, 146, 158);
 }
 
 .social-media {
@@ -26,7 +46,7 @@ a {
 }
 
 .avatar {
-    width: 280px;
+    width: 300px;
     border-radius: 28px;
     box-shadow: 4px 4px 20px rgba(0, 0, 0, .25);
 }
@@ -42,10 +62,8 @@ a {
 }
 
 .info-text p {
-    font-style: italic;
-    font-weight: bold;
-    color: #86898f;
-    margin: 0;
+    font-style: normal;
+    color: black;
 }
 
 .info-text h4 {
@@ -67,35 +85,31 @@ a {
 
 .card h2 {
     margin-bottom: 10px;
+    text-decoration: underline;
 }
 
 .bg-blue {
-    background-color: #AFEEEE;
+    background-color: #d1fafa;
+}
+
+.bg-blue li:hover {
+    font-size: large;
+    color: rgb(38, 37, 37);
 }
 
 .bg-orange {
-    background-color: #ebd1a6;
+    background-color: #f6e6cd;
 }
 
 
 .bg-grey {
-    background: #B0C4DE;
+    background: #c9cfd6;
 }
 
-.btn {
-    margin: 0 auto;
-    display: block;
-    width: 100%;
-    background: #111;
-    padding: 10px 15px;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-    font-family: inherit;
-    
+.bg-grey a:hover {
+    border: 1px solid;
+    background: #6b67b9;
 }
-
 
 .table {
     width: 100%;
@@ -105,10 +119,6 @@ a {
     padding-bottom: 20px;
 }
    
-.table tr:nth-child(odd) {
-    background: #FFE4C4;
-}
-
 .table td:nth-child(2),
 .table td:nth-child(3) {
     color: #86898f;
@@ -135,12 +145,12 @@ a {
 }
 
 .form h2 {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .form-row {
     margin-bottom: 30px;
-    display: flex;
+    /* display: flex; */
 }
 
 .form-row .form-group {
@@ -157,24 +167,38 @@ a {
 
 .form-group label {
     display: block;
-    font-size: 18px;
-    color: #86898f;
+    font-size: 20px;
+    color: black;
 }
 
 
 .form-group input, textarea {
+    FONT-VARIANT: JIS04;
     width: 100%;
     box-sizing: border-box;
+    margin-top: 10px;
     border: none;
     background: transparent;
     border-bottom: 1px solid #ccc;
     color: #000;
-    padding: 15px 0 10px;
+    margin-bottom: 15px;
     outline: none;
     font-family: inherit;
 }
 
+.btn {
+    transition: all 0.2s ease-in;
+    margin: 0 auto;
+    background: #111;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: inherit;
+}
+
 .btn:hover {
-    opacity: 0.85;
-    color: orange;
+    opacity: 0.8;
+    color: orange;   
 }
