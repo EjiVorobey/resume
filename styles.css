@@ -148,6 +148,10 @@ a:active {
     /* text-align: center; */
 }
 
+.form {
+    margin-left: 20px;
+}
+
 .form-row {
     margin-bottom: 30px;
     /* display: flex; */
