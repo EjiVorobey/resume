@@ -101,14 +101,15 @@ a:active {
     background-color: #f6e6cd;
 }
 
-
 .bg-grey {
     background: #c9cfd6;
 }
 
 .bg-grey a:hover {
-    border: 1px solid;
-    background: #6b67b9;
+    background: #a09fbb;
+    transition-duration: 0.5s;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 .table {
@@ -140,7 +141,7 @@ a:active {
 
 .link-list li {
     margin-bottom: 10px;
-    border-bottom: 1px solid rgb(219, 123, 123);
+    border-bottom: 1px solid rgb(209, 176, 176);
     padding-bottom: 5px;
 }
 
@@ -154,10 +155,10 @@ a:active {
 }
 
 .form-row .form-group {
-    /* display: inline-block; */
+    display: inline-block;
     margin-right: 30px;
     width: 50%;
-    /* width: calc(50%-20%); */
+    width: calc(50%-20%);
 }
 
 .form-row .form-group:last-child {
