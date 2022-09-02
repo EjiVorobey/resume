@@ -68,13 +68,6 @@ a:active {
     margin-bottom: 10px;
 }
 
-@media (max-width: 600px) {
-    .info {
-    display: block;
-    text-align: center;
-    }
-}
-
 .card {
     border-radius: 20px;
     padding: 15px 20px;
@@ -108,7 +101,7 @@ a:active {
 .bg-grey a:hover {
     background: #a09fbb;
     transition-duration: 0.5s;
-    padding: 5px;
+    padding: 1px;
     border-radius: 5px;
 }
 
@@ -144,10 +137,6 @@ a:active {
     margin-bottom: 10px;
     border-bottom: 1px solid rgb(209, 176, 176);
     padding-bottom: 5px;
-}
-
-.form h2 {
-    /* text-align: center; */
 }
 
 .form {
@@ -207,4 +196,14 @@ a:active {
 .btn:hover {
     opacity: 0.8;
     color: orange;   
+}
+
+@media (max-width: 650px) {
+    .info {
+        flex-direction: column;
+        display: block;
+    }
+    .form-row {
+        flex-direction: column;
+    }
 }
