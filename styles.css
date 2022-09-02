@@ -201,7 +201,6 @@ a:active {
 @media (max-width: 650px) {
     .info {
         flex-direction: column;
-        display: block;
     }
     .form-row {
         flex-direction: column;
