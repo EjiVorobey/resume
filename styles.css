@@ -151,7 +151,7 @@ a:active {
 .form-row .form-group {
     display: inline-block;
     margin-right: 30px;
-    width: 50%;
+    width: 100%;
     width: calc(50%-20%);
 }
 
